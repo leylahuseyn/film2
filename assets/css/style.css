@@ -1,0 +1,207 @@
+.nav {
+    width: 100%;
+    height: 60px;
+    background-color: #DE323F;
+}
+
+.media {
+    display: flex;
+    padding: 2% 5%;  
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.nav .search {
+    cursor: pointer;
+    padding: 0 6%;
+    display: flex;
+    position: relative;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.nav .p {
+    height: 60px;
+    width: 100%;
+    border: 1px solid white;
+    color: white;
+    background-color: #DE323F;
+}
+
+.nav .search i {
+    position: absolute;
+    margin: 0.2% 18%;
+    left: 1%;
+    top: 1%;
+    color: white;
+    font-size: 20px;
+    rotate: 280deg;
+}
+
+.nav .john {
+    width: 10%;
+    margin: 0 30%;
+    
+
+}
+
+
+
+
+.john img {
+    border-radius: 50%;
+    height: 40px;
+}
+
+.all {
+    display: flex;
+    background-color: #1C1C1C;
+}
+
+.newreleases {
+    background-color: black;
+    width: 16%;
+    height: 1000px;
+
+}
+
+.menu {
+    padding: 15% 10%;
+    color: white;
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style: none;
+    line-height: 3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.a {
+    color: #DE323F;
+}
+
+.menu ul li:hover {
+    color: #DE323F;
+}
+
+.last p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 10%;
+    cursor: pointer;
+}
+
+.maybury {
+    width: 90%;
+    display: flex;
+    margin: 15% 3%;
+    cursor: pointer;
+}
+
+.maybury img {
+    height: 40px;
+    border-radius: 50%;
+    margin: 2% 3%;
+}
+
+.maybury p {
+    font-size: 12px;
+}
+
+.maria {
+    width: 90%;
+    display: flex;
+    margin: 18% 3%;
+    cursor: pointer;
+}
+
+.maria img {
+    height: 40px;
+    border-radius: 50%;
+    margin: 1% 2%;
+}
+
+.maria p {
+    font-size: 12px;
+}
+
+.angela {
+    width: 90%;
+    display: flex;
+    margin: 18% 3%;
+    cursor: pointer;
+}
+
+.angela img {
+    height: 40px;
+    border-radius: 50%;
+    margin: 1% 2%;
+}
+
+.angela p {
+    font-size: 12px;
+}
+
+.newreleases p:hover {
+    color: #DE323F;
+}
+
+.box {
+    position: relative;
+}
+
+.films h1 {
+    position: absolute;
+    top: 1px;
+    margin: 6% 3%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+
+}
+
+.imgss {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 6% 3%;
+    width: 70%;
+
+}
+
+.imgss img {
+    height: 250px;
+    transition: .5s all ease-in-out;
+    cursor: pointer;
+}
+ .imgss img:hover{
+    transform: scale(1.4);
+ }
+
+.imgs1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 20px;
+}
+.title p{
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.title p:hover{
+    color: #DE323F;
+}
